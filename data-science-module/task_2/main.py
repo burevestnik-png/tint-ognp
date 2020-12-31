@@ -1,6 +1,4 @@
 import pandas
-import plotly.express as px
-import matplotlib.pyplot as plt
 
 from task_2.services.printer import Printer
 
@@ -188,7 +186,7 @@ def is_percentage_alive_bigger_dead(group):
 
 if __name__ == '__main__':
     Printer.print_task_number(1, '-> check in code')
-    dataframe = pandas.read_csv('./resources/Aids2.csv')
+    dataframe = pandas.read_csv('resources/Aids2.csv')
 
     Printer.print_empty()
     Printer.print_task_number(2)

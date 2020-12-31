@@ -86,7 +86,7 @@ def get_platforms(dataframe):
 
 
 if __name__ == '__main__':
-    dataframe = pandas.read_csv('./resources/vgsales.csv')
+    dataframe = pandas.read_csv('resources/vgsales.csv')
     Printer.print_dataset_info(dataframe, DATAFRAME_NAME)
 
     Printer.print_empty()
